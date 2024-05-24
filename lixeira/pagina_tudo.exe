@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 
 <body>
     <link rel="stylesheet" href="CSS/desing.pagina_tudo.css">
@@ -31,7 +28,7 @@ session_start();
             <div class="two-color-div">
                 <a href="pagina_isui01.php" id="imagem01">
                     <img src="IMG/Imagem do WhatsApp de 2023-10-12 à(s) 13.04.54_6b921086.jpg" id="capa"></a>
-                <a href="pagina_isui01.php" class="hover-link">Isui, a sombra da alma</a>
+                <a href="pagina_isui01.php" class="hover-link">Fazbear Tycoon</a>
         </form>
     </main>
 </body>   

@@ -1,7 +1,8 @@
-body{
-    background-color: rgb(19, 19, 19); 
+body {
+    background-color: rgb(19, 19, 19);
 }
-#inicio01{
+
+#inicio01 {
     background-color: rgb(39, 39, 39);
     box-shadow: none;
     color: aliceblue;
@@ -11,107 +12,129 @@ body{
     width: 1365px;
     margin-left: -8px;
 }
-#nomedaobra{
- padding-left: 12px;
+
+#nomedaobra {
+    padding-left: 12px;
 }
-#nome_site{
+
+#nome_site {
     margin-top: 4px;
     margin-left: 13px;
 }
-#voltar{
-    margin-left: 1210px;
+
+#voltar {
+    margin-left: 1200px;
     margin-top: 7px;
 }
-img{
+
+img {
     height: 85%;
     width: 18%;
     margin-top: 28px;
     margin-left: 20px;
 }
-#lobbasic{
+
+#lobbasic {
     background-color: rgb(34, 34, 34);
     display: flex;
     color: aliceblue;
     height: 400px;
+    margin-top: 12px;
 }
-#nome{
+
+#nome {
     display: flex;
     margin-left: 55px;
     margin-top: 25px;
 }
-#descricao{
+
+#descricao {
     display: flex;
     margin-left: 320px;
     margin-top: -340px;
     width: 500px;
     color: aliceblue;
 }
-#descrisui{
+
+#descrisui {
     padding-left: 12px;
 }
-#capitulos{
+
+#capitulos {
     display: flex;
     margin-left: 320px;
     color: aliceblue;
 }
-#categoria01{
+#categoria01 {
     margin-left: 12px;
     height: 29px;
     margin-top: 16px;
 }
-#comentario{
+
+#comentario {
     margin-left: 900px;
-    
-}
-#comenti{
-    width: 400px;
-    margin-top: -20px;
-    height: 25px;
+
 }
 
-#cn{
+#comenti {
+    width: 390px;
+    margin-top: -21px;
+    height: 21px;
+    margin-left: 53px;
+}
+
+#cn {
     margin-top: -230px;
     color: aliceblue;
 }
-main{
+
+main {
     background-color: rgb(34, 34, 34);
     height: 100px;
-    width: 1285px;
+    width: 196px;
     top: 457px;
-    left: 3%;
+    left: 43.4%;
     position: fixed;
 }
-#caps{
 
+#caps {
+    color: white;
     background-color: rgb(39, 39, 39);
     height: 70px;
-    width: 1246px;
+    width: 168px;
     position: fixed;
     top: 472px;
-    left: 4%;
+    left: 44%;
     padding-left: 12px;
+    display: flex;
+   
 }
 
-a{
+a {
     text-decoration: none;
     color: aliceblue;
     display: flex;
     padding-top: 2px;
 }
 
-#autor{
+#autor {
     display: flex;
     margin-left: 321px;
-  
+
     width: 500px;
     color: aliceblue;
 }
-#auro{
+
+#auro {
     position: fixed;
     left: 29%;
     top: 313px;
 }
-#mensagens{
-position: fixed;
-left: 500px;
+
+#mensagens {
+    position: fixed;
+    left: 500px;
+}
+#arquivo{
+margin-left: 15px;
 }

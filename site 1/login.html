@@ -1,30 +1,3 @@
-<script>
-    let erros = [];
-    if (isset($_POST['senha'], $_POST['email'])) {
-
-        $senha = trim(strip_tags($_POST['senha']));
-        $email = trim(strip_tags($_POST['email']));
-
-        if (empty($senha) || empty($email)) {
-            $erros = "  Erros no formulario: ";
-        }
-
-        if (strlen($senha) < 6) {
-            $erros = "A senha precisa ter no mínimo 8 caracteres.";
-        }
-
-        if (strlen($email) < 5) { // Corrija o comprimento mínimo do email.
-            $erros = "O email precisa ter no mínimo 5 caracteres.";
-        }
-
-        if (count($erros) == 0) {
-            header('Location: inicial/pagina_inicial.php');
-            exit; // Adicione um exit para encerrar o script após o redirecionamento.
-        }
-    }
-
-</script>
-
 <!DOCTYPE html>
 <html lang="PT-BR">
 
@@ -32,25 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_login/desing_login.css">
-    <link rel="shortcut icon" href="FAVICON/panda.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="favin/panda.jpg" type="image/x-icon">
+    <script src="js/arquivo.js"></script>
     <title>login</title>
-
 </head>
 
 <body>
     <header>
         <div id="logo">
-            <h3 id="nomelogo">Store_Nuvven</h3>
+            <h3 id="nomelogo">Store Nuveen</h3>
         </div>
     </header>
 
     <main>
         <form>
+            <h3>nome
+                <input type="text" name="nome" id="nome" placeholder="ex: carlos">
+            </h3>
             <h3>Senha
-                <input type="password" name="senha" placeholder="ex: carlos2003">
+                <input type="password" name="senha" id="senha" placeholder="ex: carlos2003">
             </h3>
             <h3>Email
-                <input type="email" name="email" placeholder="ex: Carla0olind0@gmail.com">
+                <input type="email" name="email" id="email" placeholder="ex: Carla0olind0@gmail.com">
             </h3>
             <input type="button" value="enviar" id="enviar" onclick="entrar()">
             <nav>
@@ -58,8 +34,11 @@
             </nav>
         </form>
     </main>
-<footer>
-</footer>
+    <footer>
+        <div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
