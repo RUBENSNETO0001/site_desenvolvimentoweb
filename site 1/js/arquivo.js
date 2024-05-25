@@ -15,7 +15,7 @@ function entrar() {
         }
         else {
             alert("Bem_vindo!")
-            window.location = "inicial/index.html"
+            window.location = "inicial/index_home.html"
             function resgistrado(nome_user, email_user, senha_user) {
                 let usuario = [nome_user = [], email_user = [], senha_user = []];
                 return resgistrado(nome_user, email_user, senha_user);
