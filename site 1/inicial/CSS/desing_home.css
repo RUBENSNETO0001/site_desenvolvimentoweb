@@ -1,71 +1,113 @@
-#inicio{
-    background-color: rgb(39, 39, 39);
-    box-shadow: none;
-    padding-left: 12px;
-    
-}
-#modal01{
- margin-left: 97%;
- margin-top: -42px;
-
+#inicio {
+  background-color: rgb(39, 39, 39);
+  box-shadow: none;
+  padding-left: 12px;
 }
 
-a{
-    color: aliceblue;
-    text-decoration: none;
+#modal01 {
+  margin-left: 97%;
+  margin-top: -42px;
+  color: rgb(183, 0, 255);
+}
+
+#modal {
+  background-color: rgb(44, 44, 44);
+  color: rgb(183, 0, 255);
+  border: color (183, 0, 255);
+  text-decoration: none;
+}
+
+#modal_buttao {
+  background-color: rgb(24, 24, 24);
+  color: rgb(183, 0, 255);
+}
+
+.carousel-control-next {
+  height: 30%;
+  margin-top: 10%;
+}
+
+.carousel-control-prev {
+  height: 30%;
+  margin-top: 10%;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#carouselExampleAutoplaying {
+  margin-left: 50px;
+  margin-top: -59px;
+}
+.carousel-item{
+width: 101%;
+}
+.carousel-control-next-icon{
+  margin-left: -110px;
 }
 #form01 {
-    position: relative;
-    top: 78px; 
-    left: 20px;
-    background-color: rgb(39, 39, 39); 
-    width: 858px;
-    text-align: end;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  background-color: rgb(39, 39, 39);
+  width: 858px;
+  text-align: end;
 }
-img{
+
+img {
   height: 310px;
   width: 220px;
-  margin-top: 44px;
+  margin-top: 40px;
   margin-left: -70px;
 }
-#imagem01:hover{
-opacity: 0.4;
+
+#imagem01:hover {
+  opacity: 0.4;
 }
+
 div a {
-    display: block;
-    margin-left: 92px;
+  display: block;
+  margin-left: 92px;
 
-  }
+}
+
 .two-color-div {
-    position: relative;
-  }
-.hover-link {
-    color: rgb(255, 255, 255); 
-    text-decoration: none; 
-    transition: color 0.3s; 
-  }
-.hover-link:hover {
-    color: rgb(255, 0, 0); 
-  }
-#form02{
-    background-color: rgb(24, 24, 24);
-    box-shadow: none;
-    height: 396px;
-    width: 870px;
-    margin-top: 48px;
-    margin-left: 14px;
-  }
-  #capa{
-    position: relative;
-    left: 3%;
-   
-    transition: color 0.3s; 
-  }
-  #div01{
-    margin-left: 450px;
-  }
+  position: relative;
+}
 
-#fim{
+.hover-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.hover-link:hover {
+  color: rgb(255, 0, 0);
+}
+
+#form02 {
+  background-color: rgb(24, 24, 24);
+  box-shadow: none;
+  height: 396px;
+  width: 870px;
+  margin-top: -38px;
+  margin-left: 14px;
+}
+
+#capa {
+  position: relative;
+  left: 3%;
+
+  transition: color 0.3s;
+}
+
+#div01 {
+  margin-left: 450px;
+}
+
+#fim {
   text-align: center;
   justify-items: end;
   margin-top: 67px;
@@ -73,4 +115,4 @@ div a {
   background-color: black;
   color: white;
   height: 50px;
-  }
+}

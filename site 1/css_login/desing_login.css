@@ -10,7 +10,7 @@ input {
   width: 263px;
   padding-left: 2%;
   background-color: black;
-  color: rgb(225, 0, 255);
+  color: rgb(183, 0, 255);
 }
 
 form {
@@ -75,17 +75,19 @@ ul {
 }
 
 #regin:hover {
-  color: rgb(225, 0, 255);
+  color: rgb(183, 0, 255);
 }
-#enviar{
+
+#enviar {
   width: 50px;
   margin-left: 42%;
   box-shadow: inset 0px 4px 4px 4px rgba(0, 0, 0, 0.4);
   background-color: white;
   color: black;
 }
-#enviar:hover{
-  color: rgb(225, 0, 255);
- background-color: black;
- box-shadow: inset 0px 4px 4px 4px rgba(255, 255, 255, 0.4);
+
+#enviar:hover {
+  color: rgb(183, 0, 255);
+  background-color: black;
+  box-shadow: inset 0px 4px 4px 4px rgba(255, 255, 255, 0.4);
 }
