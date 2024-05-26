@@ -1,8 +1,9 @@
 <script>
-    function voltar() {
-        window.history.back();
-      }
-    </script>    
+  function voltar() {
+    window.history.back();
+  }
+</script>
+
 <!DOCTYPE html>
 <html lang="PT-BR">
 
@@ -11,32 +12,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/desing_isui.css">
   <link rel="shortcut icon" href="FAVICON/panda.jpg" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
-
 <body>
   <header>
-    <div id="inicio01">
-      <h3 id="nome_site">Store Nuveen</h3>
+    <form id="inicio01">
+      <h3 id="nome_site">Store_Nuveen</h3>
       <a onclick="voltar()" id="voltar">voltar</a>
-    </div>
+    </form>
 
     <form id="lobbasic">
-     
+      <img src="IMG/402732-bjemtadh-v4.webp" alt="">
 
       <div id="nome">
-        <h2>Obra:</h2>
+        <h2>Obra: </h2>
         <h2 id="nomedaobra">Fazbear Tycoon</h2>
       </div>
     </form>
 
     <div id="descricao">
       <h3>Descrição:</h3>
-      <h4 id="descrisui">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quos odio mollitia sunt eum
-        soluta nobis, inventore praesentium saepe cum laudantium eos. Quod nam enim ea porro illum placeat reiciendis.
-        </h3>
+      <h4 id="descrisui">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quos odio mollitia sunt eum soluta nobis, inventore praesentium saepe cum laudantium eos. Quod nam enim ea porro illum placeat reiciendis.</h3>
     </div>
 
     <form id="capitulos">
@@ -55,18 +51,16 @@
 
     <form id="comentario">
       <h3 id="cn">Comentario:</h3>
-      <button>enviar</button>
-      <input name="comentario" id="comenti">
-
+      <input name="comentario" id="comenti"></input>
     </form>
-
   </header>
+
   <main>
     <form id="caps">
-    <p>Download: </p>
-    <p id="arquivo"><input type="button" name="anexo" id = "anexo" onclick="location.href='arquivo_game/ft-test-night.exe';" value="arquivo"></p>
-    </form>
+      <p id="nome_download">Download: </p>
+      <p id="arquivo"><input type="button" name="anexo" id = "anexo" onclick="location.href='arquivo_game/ft-test-night.exe';" value="arquivo"></p>
+      </form>
   </main>
-</body>
 
+</body>
 </html>
