@@ -6,7 +6,7 @@
 
 #modal01 {
   margin-left: 97%;
-  margin-top: -42px;
+  margin-top: -20px;
   color: rgb(183, 0, 255);
 }
 
@@ -21,7 +21,22 @@
   background-color: rgb(24, 24, 24);
   color: rgb(183, 0, 255);
 }
+.modal_opcao{
+  color: rgb(183, 0, 255);
+margin-left: 0px;
 
+}
+#a{
+  display: flex;
+}
+#pesquisa{
+  margin-top: -12px;
+}
+.form-control_me-2{
+  width: 100px;
+  margin-left: 80px;
+  
+}
 .carousel-control-next {
   height: 30%;
   margin-top: 10%;
@@ -63,14 +78,13 @@ img {
   margin-left: -70px;
 }
 
-#imagem01:hover {
+.imagem01:hover {
   opacity: 0.4;
 }
 
 div a {
   display: block;
   margin-left: 92px;
-
 }
 
 .two-color-div {
@@ -94,12 +108,12 @@ div a {
   width: 870px;
   margin-top: -38px;
   margin-left: 14px;
+  
 }
 
 #capa {
   position: relative;
   left: 3%;
-
   transition: color 0.3s;
 }
 

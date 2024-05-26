@@ -8,7 +8,7 @@ body{
     display: flex;
     height: 30px;
     margin-top: -8px;
-    width: 1348px;
+    width: 1366px;
     margin-left: -8px;
 }
 #nomedaobra{
@@ -64,14 +64,28 @@ img{
     
 }
 #comenti{
-    width: 400px;
-    margin-top: -20px;
+    width: 344px;
+    margin-top: 75px;
+    margin-left: -99.9px;
     height: 25px;
 }
 
 #cn{
-    margin-top: -230px;
-    color: aliceblue;
+    margin-top: -232px;
+    color: rgb(183, 0, 255);
+    background-color:  rgb(66, 66, 66);
+    width: 400px;
+}
+#enviar{
+    margin-left: 124%;
+    margin-top: -22px;
+}
+#quadrado{
+    margin-top: -15px;
+    width:200px;
+    height:0px;
+    border: 100px solid;
+    border-color: rgb(53, 53, 53);
 }
 main{
     color: rgb(183, 0, 255);
@@ -112,6 +126,7 @@ a{
     position: fixed;
     left: 29%;
     top: 313px;
+    color: rgb(183, 0, 255);
 }
 #mensagens{
 position: fixed;
@@ -119,9 +134,7 @@ left: 500px;
 }
 #arquivo{
     margin-left: 12px;
- 
 }
-
 #nome_download{
     margin-top: 27px;
 }
