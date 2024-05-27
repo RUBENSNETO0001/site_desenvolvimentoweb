@@ -8,6 +8,7 @@
   margin-left: 97%;
   margin-top: -20px;
   color: rgb(183, 0, 255);
+  display: flex;
 }
 
 #modal {
@@ -31,12 +32,24 @@ margin-left: 0px;
 }
 #pesquisa{
   margin-top: -12px;
+  margin-left: -186px;
 }
 .form-control_me-2{
   width: 100px;
-  margin-left: 80px;
+  margin-left: 74px;
   
 }
+.btn.btn-outline-success{
+  margin-top: -33px;
+ 
+}
+.btn.btn-primary{
+  margin-top: -16px;
+  margin-left: -12px;
+}
+
+
+
 .carousel-control-next {
   height: 30%;
   margin-top: 10%;
@@ -51,11 +64,16 @@ a {
   color: aliceblue;
   text-decoration: none;
 }
-
-#carouselExampleAutoplaying {
-  margin-left: 50px;
-  margin-top: -59px;
+#carou{
+  margin-top: 22px;
+  margin-left: 0px;
 }
+#carouselExampleAutoplaying {
+  margin-left: 20px;
+  margin-top: -59px;
+  width: 96%;
+}
+
 .carousel-item{
 width: 101%;
 }
@@ -65,17 +83,22 @@ width: 101%;
 #form01 {
   position: relative;
   top: 5px;
-  left: 20px;
+  left: 14px;
   background-color: rgb(39, 39, 39);
-  width: 858px;
+  width: 868px;
   text-align: end;
+  padding-left: -12px;
 }
 
 img {
   height: 310px;
   width: 220px;
-  margin-top: 40px;
-  margin-left: -70px;
+ 
+}
+.imagem01{
+  margin-top: -40px;
+  height: 310px;
+  width: 220px;
 }
 
 .imagem01:hover {
@@ -83,8 +106,9 @@ img {
 }
 
 div a {
-  display: block;
-  margin-left: 92px;
+ display: block;
+ margin-left: 27px;
+
 }
 
 .two-color-div {
@@ -95,18 +119,35 @@ div a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   transition: color 0.3s;
+  margin-left: 91px;
+  margin-top: 40px;
+  width: 150px;
 }
 
 .hover-link:hover {
-  color: rgb(255, 0, 0);
+  color: rgb(183, 0, 255);
 }
-
+.hover-link2{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: color 0.3s;
+  margin-left: 832px;
+  margin-top: -40px;
+  display: flex;
+  width: 150px;
+}
+#two-color-div2{
+  margin-top: -120px;
+}
+.hover-link2:hover{
+  color: rgb(183, 0, 255);
+}
 #form02 {
   background-color: rgb(24, 24, 24);
   box-shadow: none;
-  height: 396px;
-  width: 870px;
-  margin-top: -38px;
+  height: 376px;
+  width: 868px;
+  margin-top: -10px;
   margin-left: 14px;
   
 }
@@ -115,6 +156,11 @@ div a {
   position: relative;
   left: 3%;
   transition: color 0.3s;
+  margin-top: 40px;
+}
+#capa02{
+  margin-left: 750px;
+  margin-top: -352px;
 }
 
 #div01 {
@@ -129,4 +175,5 @@ div a {
   background-color: black;
   color: white;
   height: 50px;
+  position: relative;
 }
