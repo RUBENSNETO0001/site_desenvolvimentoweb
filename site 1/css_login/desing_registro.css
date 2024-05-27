@@ -25,7 +25,7 @@ form {
   transform: translate(-50%, -50%);
   border-radius: 3px;
   box-shadow: inset 0px 12px 25px 5px rgba(0, 0, 0, 0.4);
-  height: 217px;
+  height: 226px;
   width: 300px;
 }
 
@@ -51,15 +51,14 @@ ul {
   width: 112px;
   position: relative;
   left: 45.8%;
-  top: 100px;
+  top: 90px;
 }
 
 #nomelogo {
-  margin-top: 70px;
+  color: #e6e6e6;
   background: -webkit-linear-gradient(#eee, #c300ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 #nomelogo {
