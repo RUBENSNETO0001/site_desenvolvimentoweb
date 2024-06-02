@@ -85,6 +85,17 @@ width: 101%;
 .carousel-control-next-icon{
   margin-left: -110px;
 }
+#nome_destaque{
+text-align: start;
+position: relative;
+width: 100px;
+left: 1%;
+color: white;
+}
+#mais{
+  margin-top: -39px;
+  margin-left: -5px;
+}
 #form01 {
   position: relative;
   top: 5px;
@@ -171,6 +182,38 @@ div a {
 #div01 {
   margin-left: 450px;
 }
+/*galeria*/
+
+#galeria{
+  background-color: #414141;
+  color: #c300ff;
+  text-align: center;
+  width: 80%;
+  padding-left: -20%;
+  margin-left: 10%;
+  margin-top: 280px;
+}
+#fotos_galeria{
+  display: flex;
+  padding-left:9.5%;
+
+}
+.imgs{
+  padding: 12px;
+}
+/*galeria*/
+/*anuncios*/
+#anuncios{
+ margin-top: -765px;
+ margin-left: 12px;
+  width: 445px;
+}
+#anuncio1{
+width: 444px;
+height: 100px;
+display: block; 
+}
+/*anuncios*/
 
 #fim {
   text-align: center;

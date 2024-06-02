@@ -1,0 +1,31 @@
+Olá Samanta,
+
+Eu gostaria de compartilhar o status atual do projeto. Não consegui terminar tudo o que planejei devido ao tempo limitado, então ainda considero que está em fase beta. Aqui está um resumo do que foi feito e do que ainda pretendia implementar:
+
+Status Atual:
+Funcionalidades Implementadas:
+
+Design:
+Adotei um design minimalista para facilitar a navegação e a compreensão do usuário sobre onde ir.
+
+Funcionalidades que não foram concluídas:
+perfil, comentário e integração dos demais comendos.
+
+Banco de Dados:
+
+Não consegui implementar o banco de dados para comentários e perfis, então essas funcionalidades não estão funcionando então exclui do projeto. Planejo focar nisso na próxima versão.
+
+Animações e Comandos Extras:
+
+Não tive tempo de adicionar animações extras e alguns comandos adicionais que pensei inicialmente. Espero incluir isso em uma futura atualização.
+
+Próximos Passos:
+Implementar um banco de dados para suporte completo a comentários e perfis.
+Adicionar animações extras para melhorar a experiência do usuário.
+Incluir comandos adicionais que possam facilitar a navegação e o uso do site.
+
+Espero que você goste do que foi feito até agora e estou ansioso para continuar trabalhando nas melhorias para a próxima versão.
+
+Obrigado pelo entendimento!
+
+Eu fiz de tudo para sai o mais bonito e facil possivel
