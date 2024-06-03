@@ -85,11 +85,12 @@ width: 101%;
 .carousel-control-next-icon{
   margin-left: -110px;
 }
+/*main*/
 #nome_destaque{
 text-align: start;
 position: relative;
 width: 100px;
-left: 1%;
+left: 3px;
 color: white;
 }
 #mais{
@@ -152,11 +153,12 @@ div a {
   display: flex;
   width: 150px;
 }
-#two-color-div2{
-  margin-top: -120px;
-}
+
 .hover-link2:hover{
   color: rgb(183, 0, 255);
+}
+#two-color-div2{
+  margin-top: -120px;
 }
 #form02 {
   background-color: rgb(24, 24, 24);
@@ -182,7 +184,6 @@ div a {
 #div01 {
   margin-left: 450px;
 }
-/*galeria*/
 
 #galeria{
   background-color: #414141;
@@ -195,25 +196,35 @@ div a {
 }
 #fotos_galeria{
   display: flex;
-  padding-left:9.5%;
+
 
 }
 .imgs{
   padding: 12px;
 }
-/*galeria*/
-/*anuncios*/
-#anuncios{
- margin-top: -765px;
- margin-left: 12px;
+
+#anuncios {
+  margin-top: -765px;
+  margin-left: 12px;
   width: 445px;
 }
-#anuncio1{
-width: 444px;
-height: 100px;
-display: block; 
+
+#anuncio1 {
+  width: 444px;
+  height: 100px;
+  display: block;
 }
-/*anuncios*/
+ #anuncios {
+    margin-top: -30px; /* Ajuste conforme necessário */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Ou qualquer outro valor desejado */
+  }
+  #anuncio1 {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    height: auto; /* Altura ajustável automaticamente */
+  }
+
 
 #fim {
   text-align: center;

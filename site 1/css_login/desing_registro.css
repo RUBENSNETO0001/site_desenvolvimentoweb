@@ -52,9 +52,9 @@ ul {
   box-shadow: inset 0px 4px 4px 4px rgba(0, 0, 0, 0.4);
   height: 30px;
   width: 112px;
-  position: relative;
-  left: 45.8%;
-  top: 90px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #nomelogo {
