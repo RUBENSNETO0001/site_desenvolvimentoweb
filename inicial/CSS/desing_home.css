@@ -53,8 +53,6 @@ margin-left: 0px;
   margin-left: -12px;
 }
 
-
-
 .carousel-control-next {
   height: 30%;
   margin-top: 10%;
@@ -193,7 +191,7 @@ div a {
   width: 80%;
   padding-left: -20%;
   margin-left: 10%;
-  margin-top: 280px;
+  margin-top: 2px;
 }
 #fotos_galeria{
          display: flex;
