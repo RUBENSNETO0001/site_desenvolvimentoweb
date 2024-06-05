@@ -105,11 +105,7 @@ color: white;
   padding-left: -12px;
 }
 
-img {
-  height: 310px;
-  width: 220px;
- 
-}
+
 .imagem01{
   margin-top: -40px;
   height: 310px;
@@ -182,6 +178,10 @@ div a {
   margin-left: 450px;
 }*/
 /*galeria*/
+img {
+  height: 310px;
+  width: 220px;
+}
 #galeria02{
   margin-left: 12px;
 }
