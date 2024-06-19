@@ -92,6 +92,9 @@ position: relative;
 width: 100px;
 color: white;
 }
+#nome_destaque02{
+  text-align: center;
+}
 #mais{
   margin-top: -39px;
   text-align: end;
@@ -116,10 +119,29 @@ color: white;
   left: 50%;
   transform: translateX(-50%);
 }
-
+#form03 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+  background-color: rgb(39, 39, 39);
+  max-width: 868px;
+  max-height: 24px;
+  display: grid;
+}
+#form04 {
+  background-color: rgb(24, 24, 24);
+  box-shadow: none;
+  max-height: 376px;
+  max-width: 868px;
+  position: relative;
+  margin-top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .imagem01{
   position: relative;
-  left: 5%;
+  left: 10%;
   transform: translateX(-5%);
   margin-top: -40px;
   max-height: 310px;
@@ -132,14 +154,18 @@ color: white;
 div a {
  display: block;
  position: relative;
- left: 5%;
+ left: 10%;
  transform: translateX(-5%);
 }
-
+#link_a_deadcells{
+  position: relative;
+  margin-left: -15px;
+}
 .two-color-div {
   position: relative;
   margin-top: 40px;
   text-align: end;
+  display: inline-grid;
 }
 
 .hover-link {
