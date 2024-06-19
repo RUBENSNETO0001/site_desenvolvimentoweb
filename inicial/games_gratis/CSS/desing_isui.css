@@ -1,153 +1,190 @@
-body{
-    background-color: rgb(19, 19, 19); 
+*{
+    margin: 0;
 }
-#inicio01{
+body {
+    background-color: rgb(19, 19, 19);
+}
+/*header*/
+#inicio01 {
     background-color: rgb(39, 39, 39);
     box-shadow: none;
     color: aliceblue;
     display: flex;
     height: 30px;
     margin-top: -8px;
-    width: 1366px;
     margin-left: -8px;
 }
-#nomedaobra{
- padding-left: 12px;
+
+#nomedaobra {
+    padding-left: 12px;
 }
-#nome_site{
+
+#nome_site {
     margin-top: 4px;
     margin-left: 13px;
-  
-   
 }
-#voltar{
-    margin-left: 1180px;
+
+#voltar {
+    position: relative;
+    left: 88%;
+    transform: translateX(-88%);
     margin-top: 7px;
 }
-img{
+/*header*/
+
+
+/*infor*/
+img {
     height: 85%;
     width: 18%;
     margin-top: 28px;
     margin-left: 20px;
 }
-#lobbasic{
+
+#lobbasic {
     background-color: rgb(34, 34, 34);
     display: flex;
     color: aliceblue;
     height: 400px;
 }
-#nome{
+
+#nome {
     display: flex;
     margin-left: 55px;
     margin-top: 25px;
 }
-#descricao{
+
+#descricao {
     display: flex;
     margin-left: 320px;
     margin-top: -340px;
     width: 500px;
     color: aliceblue;
 }
-#descrisui{
+
+#descrisui {
     padding-left: 12px;
 }
-#capitulos{
+
+#capitulos {
     display: flex;
     margin-left: 320px;
     color: aliceblue;
 }
-#categoria01{
+
+#categoria01 {
     margin-left: 12px;
     height: 29px;
     margin-top: 16px;
 }
-#comentario{
+
+#comentario {
     margin-left: 900px;
-    
+
 }
-#comenti{
+
+#comenti {
     width: 344px;
     margin-top: 75px;
     margin-left: -99.9px;
     height: 25px;
 }
 
-#cn{
+#cn {
     margin-top: -232px;
     color: rgb(183, 0, 255);
-    background-color:  rgb(66, 66, 66);
+    background-color: rgb(66, 66, 66);
     width: 400px;
 }
-#enviar{
+
+#enviar {
     margin-left: 124%;
     margin-top: -22px;
 }
-#quadrado{
+
+#quadrado {
     margin-top: -15px;
-    width:200px;
-    height:0px;
+    width: 200px;
+    height: 0px;
     border: 100px solid;
     border-color: rgb(53, 53, 53);
 }
-main{
-    color: rgb(183, 0, 255);
-    background-color: rgb(34, 34, 34);
-    height: 100px;
-    width: 189px;
-    top: 457px;
-    left: 3%;
-    position: fixed;
-    margin-left: 41%;
-}
-#caps{
-    background-color: rgb(39, 39, 39);
-    height: 70px;
-    width: 150px;
-    position: fixed;
-    top: 472px;
-    left: 4%;
-    padding-left: 12px;
-    display: flex;
-    margin-left: 41%;
-}
-
-a{
+a {
     text-decoration: none;
     color: aliceblue;
     display: flex;
     padding-top: 2px;
 }
 
-#autor{
+#autor {
     display: flex;
     margin-left: 321px;
     width: 500px;
     color: aliceblue;
 }
-#auro{
-    position: fixed;
+
+#auro {
+    position: relative;
     left: 29%;
     top: 313px;
     color: rgb(183, 0, 255);
 }
-#mensagens{
-position: fixed;
-left: 500px;
+
+#mensagens {
+    position: relative;
+    left: 500px;
 }
-#arquivo{
-    margin-left: 12px;
+
+/*infor*/
+
+/*donwload*/
+#caps {
+    background-color: rgb(39, 39, 39);
+    height: 70px;
+    max-width: 150px;
+    position: relative;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 12px;
+    display: flex;
 }
-#nome_download{
+#nome_download {
     margin-top: 27px;
 }
-#anexo{
+#arquivo {
+    margin-left: 12px;
+    margin-top: 17px;
+}
+#anexo {
     background-color: rgb(158, 158, 158);
     color: rgb(42, 26, 48);
     transition: 1s;
     margin-top: 10px;
 }
-#anexo:hover{
+
+#anexo:hover {
     background-color: black;
     color: rgb(183, 0, 255);
-
 }
+#caps02{
+    color: rgb(183, 0, 255);
+    background-color: rgb(34, 34, 34);
+    height: 100px;
+    width: 189px;
+    left: 3%;
+    position: relative;
+    margin-left: 46.5%;
+    transform: translateX(-49%);
+}
+/*donwload*/
+/*footer*/
+#fim {
+    position: relative;
+    margin-top: 100px;
+    padding-top: 30px;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }

@@ -221,19 +221,6 @@ img {
   margin-left: -10px;
 }
 /*galeria*/
-/*anuncios*/
-#anuncios{
- margin-top: -765px;
- margin-left: 12px;
-  width: 445px;
-}
-#anuncio1{
-width: 444px;
-height: 100px;
-display: block; 
-}
-/*anuncios*/
-
 #fim {
   text-align: center;
   justify-items: end;
