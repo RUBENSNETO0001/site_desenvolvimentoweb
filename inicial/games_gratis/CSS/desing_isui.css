@@ -74,9 +74,26 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: 0px 1px 4px blueviolet;
 }
-
-
-
+/*infor descricao*/
+#div_descricao{
+    color: #ffffff;
+    max-width: 700px;
+    text-align: center;
+    position: relative;
+    margin-top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0px 0px 12px 2px blueviolet
+}
+/*infor descricao*/
+#hr{
+    width: 60%;
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 /*infor*/
 
