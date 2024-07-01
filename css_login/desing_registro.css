@@ -1,3 +1,4 @@
+
 body {
   text-align: center;
   background-image: url(https://i.pinimg.com/originals/cc/0c/5d/cc0c5d1c437d83ee49cbdb66b500e144.jpg);
@@ -94,4 +95,14 @@ ul {
   color: rgb(183, 0, 255);
   background-color: black;
   box-shadow: inset 0px 4px 4px 4px rgba(255, 255, 255, 0.4);
+}
+
+#nome{
+  text-align: center;
+}
+#senha{
+  text-align: center;
+}
+#email{
+  text-align: center;
 }
